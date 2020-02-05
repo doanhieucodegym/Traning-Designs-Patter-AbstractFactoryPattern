@@ -3,7 +3,7 @@ package com.AbstractFactoryPattern.abstractLoan;
 public  abstract class Loan {
     protected double rate;
 
-    abstract void getInterestRate(double rate);
+   public abstract void getInterestRate(double rate);
 
     public void calculateLoanPayment(double loanAmount, int years) {
         /*

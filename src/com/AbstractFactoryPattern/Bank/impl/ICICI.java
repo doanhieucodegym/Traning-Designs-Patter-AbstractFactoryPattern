@@ -5,7 +5,7 @@ import com.AbstractFactoryPattern.Bank.Bank;
 public class ICICI implements Bank {
     private final String BNAME;
 
-    ICICI() {
+    public ICICI() {
         BNAME = "ICICI BANK";
     }
 
